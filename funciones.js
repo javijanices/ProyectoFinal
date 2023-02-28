@@ -1,4 +1,4 @@
-function docCrElement (tipo){
+function crearElemento (tipo){
     return document.createElement(tipo);
 }
 
