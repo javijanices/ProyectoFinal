@@ -12,10 +12,6 @@ html{
 
 /* SECCION INICIO */
 
-h1{
-    text-align: center;
-}
-
 .inicio{
     background-image: url("imagenes/fondo.jpg");
     background-size: cover;
@@ -92,5 +88,19 @@ h1{
     transition: .3s;
 }
 
+.inicio .contenido-seccion .foto{
+    position: relative;    
+}
+/*
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+*/
 
 
