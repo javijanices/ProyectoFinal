@@ -21,11 +21,15 @@ for(var i=0; i < vinculos.length; i++){
     }
 }
 
-function lorem1(){
-    return Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque repellendus ad incidunt doloremque sapient;
+let texto1 = document.getElementById("lorem1");
+function completarInfo(texto1){
+    texto1 = lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque repellendus ad incidunt doloremque sapient;
+    return texto1;
 }
 
-function lorem2(){
-    return Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat elit sit amet nibh varius dictum;
+let texto2 = document.getElementById("lorem2");
+function Info(texto2){
+    texto2 = Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat elit sit amet nibh varius dictum;
+    return texto2;
 }
 

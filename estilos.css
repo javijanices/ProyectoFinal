@@ -202,3 +202,75 @@ html{
     text-align: left;
 }
 
+/* SECCION EXPERIENCIA*/
+
+.experiencia {
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;    
+}
+
+.experiencia .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.experiencia .contenido-seccion h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.experiencia .contenido-seccion .info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.experiencia .contenido-seccion .info .columna {
+    width: 45%;
+}
+
+.experiencia .contenido-seccion .info .columna .titulo {
+    display: inline-block;
+    color: #e90808;
+    font-weight: bold;
+    border: 2px solid #f50505;
+    padding: 10px;
+}
+
+.experiencia .contenido-seccion .info .columna table {
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.experiencia .contenido-seccion .info .columna table .datos {
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+
+.experiencia .contenido-seccion .info .columna table h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.experiencia .contenido-seccion .info .columna table h4 {
+    margin-top: 10px;
+}
+
+.experiencia .contenido-seccion .info .columna table p {
+    font-size: 14px;
+}
+
+.experiencia .contenido-seccion .info .columna table .nota {
+    display: block;
+    color: #fc0b33;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.experiencia .contenido-seccion .info .columna table .descripcion {
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
